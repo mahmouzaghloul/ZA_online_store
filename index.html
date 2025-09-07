@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- link icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- file swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- file css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- icon site -->
+    <link rel="icon" href="./img/icon.png">
+    <title>Reda | Online Store</title>
+</head>
+<body>
+    
+    <!-- start header -->
+    <header>
+        <!--start top header -->
+        <div class="top_header">
+            <div class="container">
+                <a class="logo" href="#"><img src="./img/logo.png" alt="logo"></a>
+                
+                <!--start form -->
+                <form class="search_box">
+                    <!-- start select_box -->
+                    <div class="select_box">
+                        <select name="category" id="category">
+                            <option value="All categories">All categories</option>
+                            <option value="Electronics & Digita">Electronics & Digita</option>
+                            <option value="Phone & Tablet">Phone & Tablet</option>
+                            <option value="Fashion & Clothings">Fashion & Clothings</option>
+                            <option value="Telivsion & Monitor">Telivsion & Monitor</option>
+                            <option value="Jewelry & Watches">Jewelry & Watches</option>
+                            <option value="Washing & Machine">Washing & Machine</option>
+                            <option value="Toys & Hobbies">Toys & Hobbies</option>
+                        </select>
+                    </div>
+                    <!-- end select_box -->
+
+                    <input type="text" name="search" id="search" placeholder="search for products" required>
+                    
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <!--end  form-->
+
+                <div class="header_icons">
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-heart"></i>
+                            <span class="count count_item_heart">1</span>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="count count_item_shopping">0</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--start top header -->
+
+        
+        <!--start bottom header  -->
+        <div class="bottom-heder">
+            <div class="container">
+                <nav>
+
+                    <div class="category_nav">
+                        <div class="category_btn">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>Browse category</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        
+                      <div class="category_nav_list ">
+                        <a href="#">Top 10 Offers</a>
+                        <a href="#">Electronics & Digita</a>
+                        <a href="#">Phones & Tablet</a>
+                        <a href="#">Fashion & Clothings</a>
+                        <a href="#">Telivsion & Monitor</a>
+                        <a href="#">Jewelry & watches</a>
+                        <a href="#">Toys & Hobbies</a>
+                      </div>
+
+                    </div>
+
+                    <ul class="nav_links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Accesories</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="login_signup btns">
+                    <a class="login" href="#">login <i class="fa-solid fa-right-to-bracket"></i> </a>
+                    <a class="signup" href="#">signup <i class="fa-solid fa-user-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--end bottom header  -->
+
+    </header>
+    <!-- end header -->
+
+
+    <!-- start slider -->
+    <div class="slider">
+        <div class="container">
+            <!--swiper  -->
+            <div class="slide_swp mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./img/banner_home1.png" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./img/banner_home2.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="banner_2">
+                <a href="#"><img src="./img/banner_home3.png" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+    <!-- end slider -->
+
+
+
+
+    <!-- file swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- file js -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
