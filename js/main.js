@@ -40,6 +40,8 @@ categoryBtn.forEach(loop=>{
 
 });
 
+
+// start slider  
 var swiper = new Swiper(".slide_swp", {
     pagination: {
         el: ".swiper-pagination",
@@ -51,3 +53,5 @@ var swiper = new Swiper(".slide_swp", {
     },
     loop:true
 });
+// end slider 
+
